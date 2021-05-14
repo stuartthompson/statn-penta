@@ -16,7 +16,7 @@
 				"source.rust meta.use.rust keyword.other.crate.rust"
 			],
 			"settings": {
-				"foreground": "#939310"
+				"foreground": "#c0b40c"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 				"source.rust meta.use.rust entity.name.type.rust"
 			],
 			"settings": {
-				"foreground": "#e6e72c"
+				"foreground": "#F7F085"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 				"source.rust storage.type.rust"
 			],
 			"settings": {
-				"foreground": "#e6822c"
+				"foreground": "#D9AA52"
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 				"source.rust meta.use.rust"
 			],
 			"settings": {
-				"foreground": "#e6e72c"
+				"foreground": "#F7F085"
 			}
 		},
 		{
@@ -79,7 +79,7 @@
 				"source.rust punctuation.semi.rust"
 			],
 			"settings": {
-				"foreground": "#939310"
+				"foreground": "#c0b40c"
 			}
 		},
 		{
@@ -88,7 +88,7 @@
 				"source.rust punctuation.definition.lifetime.rust"
 			],
 			"settings": {
-				"foreground": "#960d92"
+				"foreground": "#8C5F27"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 				"source.rust entity.name.type.lifetime.rust"
 			],
 			"settings": {
-				"foreground": "#ec26e6"
+				"foreground": "#8C5F27"
 			}
 		},
 		{
