@@ -3,6 +3,13 @@
     "displayName": "statn-vscodetheme",
     "description": "A VSCode theme for Statn projects.",
     "version": "0.0.1",
+    "publisher": "stuartthompson",
+    "license": "GPL3",
+    "homepage": "https://github.com/stuartthompson/statn-vscodetheme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stuartthompson/statn-vscodetheme"
+      },
     "engines": {
         "vscode": "^1.56.0"
     },
