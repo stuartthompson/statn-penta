@@ -2,8 +2,8 @@
 	"name": "Statn",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#10100e",
-		"editor.foreground": "#a3e8f5",
+		"editor.background": "#051423",
+		"editor.foreground": "#dceafa",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -11,45 +11,50 @@
 		{
 			"name": "Rust - Use - Keywords and Delimiters",
 			"scope": [
+				"source.rust meta.use.rust entity.name.namespace.rust",
 				"source.rust meta.use.rust keyword.operator.namespace.rust",
 				"source.rust meta.use.rust keyword.other.rust",
-				"source.rust meta.use.rust keyword.other.crate.rust"
+				"source.rust meta.use.rust keyword.other.crate.rust",
+				"source.rust meta.use.rust punctuation.brackets.curly.rust",
+				"source.rust meta.use.rust punctuation.comma.rust",
+				"source.rust meta.use.rust punctuation.semi.rust"
 			],
 			"settings": {
-				"foreground": "#c0b40c"
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "Rust - Use - Namespaces",
+			"scope": [
+				"source.rust meta.use.rust entity.name.namespace.rust"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
 			}
 		},
 		{
 			"name": "Rust - Use - Imports",
 			"scope": [
+				"source.rust meta.use.rust",
 				"source.rust meta.use.rust entity.name.type.rust"
 			],
 			"settings": {
-				"foreground": "#F7F085"
+				"foreground": "#93BFEF"
 			}
 		},
 		{
-			"name": "Rust - Keyword, Storage Type",
-			"scope": [
-				"source.rust keyword.operator.namespace.rust",
-				"source.rust keyword.other.rust",
-				"source.rust keyword.other.crate.rust",
-				"source.rust storage.type.rust"
-			],
-			"settings": {
-				"foreground": "#D9AA52"
-			}
-		},
-		{
-			"name": "Rust - Entity Name",
+			"name": "Rust - [Yellow] Entity Name & Macros",
 			"scope": [
 				"source.rust entity.name.namespace.rust",
 				"source.rust entity.name.type.rust",
+				"source.rust entity.name.type.numeric.rust",
+				"source.rust entity.name.type.primitive.rust",
+				"source.rust entity.name.type.string.rust",
 				"source.rust entity.name.type.struct.rust",
-				"source.rust meta.use.rust"
+				"source.rust meta.macro.rust"
 			],
 			"settings": {
-				"foreground": "#F7F085"
+				"foreground": "#f5e97f"
 			}
 		},
 		{
@@ -58,46 +63,107 @@
 				"source.rust variable.other.rust"
 			],
 			"settings": {
-				"foreground": "#2ce6e6"
+				"foreground": "#BFF598"
+			}
+		},
+		{
+			"name": "Rust - [Orange] System Level - Darkest (Main Keywords)",
+			"scope": [
+				"source.rust keyword.operator.namespace.rust",
+				"source.rust keyword.other.crate.rust",
+				"source.rust keyword.other.fn.rust",
+				"source.rust keyword.other.rust",
+				"source.rust meta.function.definition.rust keyword.operator.borrow.and.rust",
+				"source.rust meta.function.definition.rust storage.modifier.mut.rust",
+				"source.rust storage.type.rust"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "Rust - [Orange] System Level - Medium (Punctuation)",
+			"scope": [
+				"source.rust keyword.operator.access.dot.rust",
+				"source.rust keyword.operator.assignment.rust",
+				"source.rust keyword.operator.assignment.equal.rust",
+				"source.rust keyword.operator.comparison.rust",
+				"source.rust meta.function.definition.rust keyword.operator.key-value.rust",
+				"source.rust punctuation.comma.rust",
+				"source.rust punctuation.brackets.angle.rust",
+				"source.rust punctuation.brackets.curly.rust",
+				"source.rust punctuation.brackets.round.rust",
+				"source.rust punctuation.semi.rust"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "Rust - [Orange] System Level - Brightest (Other Keywords)",
+			"scope": [
+				"source.rust entity.name.type.lifetime.rust",
+				"source.rust keyword.control.rust",
+				"source.rust meta.function.definition.rust variable.language.self.rust",
+				"source.rust variable.language.self.rust",
+				"source.rust punctuation.definition.lifetime.rust"
+			],
+			"settings": {
+				"foreground": "#f5c167"
+			}
+		},
+		{
+			"name": "Rust - [Blues] (Bright) Function Names",
+			"scope": [
+				"source.rust meta.function.call.rust entity.name.function.rust",
+				"source.rust meta.function.call.rust punctuation.brackets.round.rust",
+				"source.rust meta.function.definition.rust entity.name.function.rust",
+				"source.rust meta.function.definition.rust punctuation.brackets.round.rust",
+				"source.rust meta.function.definition.rust keyword.operator.arrow.skinny.rust"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "Rust - [Blues] (Medium) Functions, Punctuation",
+			"scope": [
+				"source.rust meta.function.definition.rust punctuation.brackets.round.rust"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "Rust - [Blues] (Darkest) Functions, Other Punctuation",
+			"scope": [
+				"source.rust meta.function.definition.rust keyword.operator.arrow.skinny.rust",
+				"source.rust keyword.operator.arrow.fat.rust"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "Rust - [Purple] Literals",
+			"scope": [
+				"source.rust constant.language.bool.rust",
+				"source.rust constant.numeric.decimal.rust",
+				"source.rust meta.function.call.rust string.quoted.single.char.rust",
+				"source.rust string.quoted.double.rust"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
 			}
 		},
 		{
 			"name": "Rust - Comment",
 			"scope": [
-				"source.rust comment.line.documentation.rust"
+				"source.rust comment.line.documentation.rust",
+				"source.rust comment.line.double-slash.rust"
 			],
 			"settings": {
-				"foreground": "#828282",
-			}
-		},
-		{
-			"name": "Rust - Punctuation",
-			"scope": [
-				"source.rust punctuation.comma.rust",
-				"source.rust punctuation.brackets.angle.rust",
-				"source.rust punctuation.brackets.curly.rust",
-				"source.rust punctuation.semi.rust"
-			],
-			"settings": {
-				"foreground": "#c0b40c"
-			}
-		},
-		{
-			"name": "Rust - Lifetime - Punctuation",
-			"scope": [
-				"source.rust punctuation.definition.lifetime.rust"
-			],
-			"settings": {
-				"foreground": "#8C5F27"
-			}
-		},
-		{
-			"name": "Rust - Lifetime",
-			"scope": [
-				"source.rust entity.name.type.lifetime.rust"
-			],
-			"settings": {
-				"foreground": "#8C5F27"
+				"foreground": "#185aa0",
 			}
 		},
 		{
@@ -166,25 +232,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#a3e8f5"
-			}
-		},
-		{
-			"name": "Markdown - Markup Raw Inline",
-			"scope": [
-				"text.html.markdown markup.inline.raw.markdown"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Markdown - Markup Raw Inline Punctuation",
-			"scope": [
-				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
-			],
-			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#dceafa"
 			}
 		},
 		{
@@ -195,164 +243,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#e9940c"
-			}
-		},
-		{
-			"name": "Markup - Italic",
-			"scope": [
-				"markup.italic"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Markup - Bold",
-			"scope": [
-				"markup.bold",
-				"markup.bold string"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Markup - Bold-Italic",
-			"scope": [
-				"markup.bold markup.italic",
-				"markup.italic markup.bold",
-				"markup.quote markup.bold",
-				"markup.bold markup.italic string",
-				"markup.italic markup.bold string",
-				"markup.quote markup.bold string"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Markup - Underline",
-			"scope": [
-				"markup.underline"
-			],
-			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#66d9ef"
-			}
-		},
-		{
-			"name": "Markdown - Blockquote",
-			"scope": [
-				"markup.quote punctuation.definition.blockquote.markdown"
-			],
-			"settings": {
-				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markup - Quote",
-			"scope": [
-				"markup.quote"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Markdown - Link",
-			"scope": [
-				"string.other.link.title.markdown"
-			],
-			"settings": {
-				"foreground": "#33a0d7"
-			}
-		},
-		{
-			"name": "Markdown - Link Description",
-			"scope": [
-				"string.other.link.description.title.markdown"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Markdown - Link Anchor",
-			"scope": [
-				"constant.other.reference.link.markdown"
-			],
-			"settings": {
-				"foreground": "#33a0d7"
-			}
-		},
-		{
-			"name": "Markup - Raw Block",
-			"scope": [
-				"markup.raw.block"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Markdown - Raw Block Fenced",
-			"scope": [
-				"markup.raw.block.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
-		{
-			"name": "Markdown - Fenced Bode Block",
-			"scope": [
-				"punctuation.definition.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
-		{
-			"name": "Markdown - Fenced Bode Block Variable",
-			"scope": [
-				"markup.raw.block.fenced.markdown",
-				"variable.language.fenced.markdown",
-				"punctuation.section.class.end"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
-		{
-			"name": "Markdown - Fenced Language",
-			"scope": [
-				"variable.language.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markdown - Separator",
-			"scope": [
-				"meta.separator"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markup - Table",
-			"scope": [
-				"markup.table"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#bff598"
 			}
 		}
 	]
