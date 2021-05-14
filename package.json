@@ -1,0 +1,21 @@
+{
+    "name": "statn-vscodetheme",
+    "displayName": "statn-vscodetheme",
+    "description": "A VSCode theme for Statn projects.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Statn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Statn-color-theme.json"
+            }
+        ]
+    }
+}
