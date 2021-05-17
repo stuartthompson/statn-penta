@@ -1,5 +1,5 @@
 {
-	"name": "Statn",
+	"name": "statn",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#051423",
@@ -8,6 +8,16 @@
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
+		{
+			"name": "Documentation (Comment)",
+			"scope": [
+				"comment",
+				"string.comment"
+			],
+			"settings": {
+				"foreground": "#185aa0"
+			}
+		},
 		{
 			"name": "Rust - Keywords [Medium Orange]",
 			"scope": [
