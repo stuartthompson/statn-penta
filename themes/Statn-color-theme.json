@@ -200,27 +200,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Plain",
-			"scope": [
-				"text.html.markdown",
-				"punctuation.definition.list_item.markdown"
-			],
-			"settings": {
-				"foreground": "#dceafa"
-			}
-		},
-		{
-			"name": "Markdown - Heading",
-			"scope": [
-				"markdown.heading",
-				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
-			],
-			"settings": {
-				"foreground": "#bff598"
-			}
-		},
-		{
 			"name": "JSON Doc - Punctuation",
 			"scope": [
 				"source.json punctuation.separator.dictionary.key-value.json",
@@ -304,6 +283,86 @@
 			"settings": {
 				"foreground": "#bff598"
 			}
-		}
+		},
+		{
+			"name": "Markdown - Plain",
+			"scope": [
+				"text.html.markdown",
+				"punctuation.definition.list_item.markdown"
+			],
+			"settings": {
+				"foreground": "#dceafa"
+			}
+		},
+		{
+			"name": "Markdown - Punctuation",
+			"scope": [
+				"text.html.markdown punctuation.definition.heading.markdown",
+				"text.html.markdown punctuation.definition.list.begin.markdown",
+				"text.html.markdown punctuation.definition.markdown",
+				"text.html.markdown punctuation.definition.metadata.markdown",
+				"text.html.markdown punctuation.definition.string.begin.markdown",
+				"text.html.markdown punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"text.html.markdown entity.name.section.markdown"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "Markdown - Link Punctuation",
+			"scope": [
+				"text.html.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
+				"text.html.markdown meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+				"text.html.markdown meta.link.inline.markdown punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#e134ea"
+			}
+		},
+		{
+			"name": "Markdown - Link Title",
+			"scope": [
+				"text.html.markdown string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#e96bef"
+			}
+		},
+		{
+			"name": "Markdown - Link URL",
+			"scope": [
+				"text.html.markdown markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "Markdown - Code Block Language",
+			"scope": [
+				"text.html.markdown fenced_code.block.language"
+			],
+			"settings": {
+				"foreground": "#f5e97f"
+			}
+		},
+		{
+			"name": "Markdown - Code Block",
+			"scope": [
+				"text.html.markdown markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
 	]
 }
