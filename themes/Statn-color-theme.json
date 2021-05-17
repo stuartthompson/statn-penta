@@ -45,13 +45,19 @@
 		{
 			"name": "Rust - [Yellow] Entity Name & Macros",
 			"scope": [
+				"source.rust entity.name.module.rust",
 				"source.rust entity.name.namespace.rust",
 				"source.rust entity.name.type.rust",
+				"source.rust entity.name.type.declaration.rust",
+				"source.rust entity.name.type.enum.rust",
 				"source.rust entity.name.type.numeric.rust",
+				"source.rust entity.name.type.option.rust",
 				"source.rust entity.name.type.primitive.rust",
+				"source.rust entity.name.type.result.rust",
 				"source.rust entity.name.type.string.rust",
 				"source.rust entity.name.type.struct.rust",
-				"source.rust meta.macro.rust"
+				"source.rust meta.macro.rust",
+				"source.rust meta.macro.rules.rust"
 			],
 			"settings": {
 				"foreground": "#f5e97f"
@@ -73,8 +79,10 @@
 				"source.rust keyword.other.crate.rust",
 				"source.rust keyword.other.fn.rust",
 				"source.rust keyword.other.rust",
+				"source.rust keyword.operator.borrow.and.rust",
 				"source.rust meta.function.definition.rust keyword.operator.borrow.and.rust",
 				"source.rust meta.function.definition.rust storage.modifier.mut.rust",
+				"source.rust storage.modifier.mut.rust",
 				"source.rust storage.type.rust"
 			],
 			"settings": {
@@ -88,11 +96,14 @@
 				"source.rust keyword.operator.assignment.rust",
 				"source.rust keyword.operator.assignment.equal.rust",
 				"source.rust keyword.operator.comparison.rust",
+				"source.rust keyword.operator.macro.dollar.rust",
+				"source.rust keyword.operator.math.rust",
 				"source.rust meta.function.definition.rust keyword.operator.key-value.rust",
 				"source.rust punctuation.comma.rust",
 				"source.rust punctuation.brackets.angle.rust",
 				"source.rust punctuation.brackets.curly.rust",
 				"source.rust punctuation.brackets.round.rust",
+				"source.rust punctuation.brackets.square.rust",
 				"source.rust punctuation.semi.rust"
 			],
 			"settings": {
@@ -115,6 +126,7 @@
 		{
 			"name": "Rust - [Blues] (Bright) Function Names",
 			"scope": [
+				"source.rust meta.function.call.rust",
 				"source.rust meta.function.call.rust entity.name.function.rust",
 				"source.rust meta.function.call.rust punctuation.brackets.round.rust",
 				"source.rust meta.function.definition.rust entity.name.function.rust",
@@ -145,15 +157,36 @@
 			}
 		},
 		{
-			"name": "Rust - [Purple] Literals",
+			"name": "Rust - [Light Purple] Literals, Attribute Entities, Macro Vars",
 			"scope": [
 				"source.rust constant.language.bool.rust",
 				"source.rust constant.numeric.decimal.rust",
+				"source.rust meta.attribute.rust entity.name.type.rust",
 				"source.rust meta.function.call.rust string.quoted.single.char.rust",
+				"source.rust meta.macro.metavariable.rust",
+				"source.rust string.quoted.single.char.rust",
 				"source.rust string.quoted.double.rust"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "Rust - [Medium Purple] Attribute Punctuation",
+			"scope": [
+				"source.rust meta.attribute.rust punctuation.brackets.round.rust"
+			],
+			"settings": {
+				"foreground": "#e96bef"
+			}
+		},
+		{
+			"name": "Rust - [Dark Purple] Attributes",
+			"scope": [
+				"source.rust meta.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#e134ea"
 			}
 		},
 		{
@@ -241,6 +274,38 @@
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "YAML - Keys",
+			"scope": [
+				"source.yaml constant.language.boolean.yaml",
+				"source.yaml entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "YAML - Punctuation",
+			"scope": [
+				"source.yaml punctuation.definition.block.sequence.item.yaml",
+				"source.yaml punctuation.definition.sequence.begin.yaml",
+				"source.yaml punctuation.definition.sequence.end.yaml",
+				"source.yaml punctuation.separator.key-value.mapping.yaml"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "YAML - Values",
+			"scope": [
+				"source.yaml meta.flow-sequence.yaml",
+				"source.yaml string.unquoted.plain.out.yaml"
 			],
 			"settings": {
 				"foreground": "#bff598"
