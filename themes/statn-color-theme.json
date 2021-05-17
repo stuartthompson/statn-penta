@@ -9,7 +9,7 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Rust - Use - Keywords and Delimiters",
+			"name": "Rust - (Use) Keywords and Delimiters [Dark Blue]",
 			"scope": [
 				"source.rust meta.use.rust entity.name.namespace.rust",
 				"source.rust meta.use.rust keyword.operator.namespace.rust",
@@ -24,7 +24,7 @@
 			}
 		},
 		{
-			"name": "Rust - Use - Namespaces",
+			"name": "Rust - (Use) Namespaces [Medium Blue]",
 			"scope": [
 				"source.rust meta.use.rust entity.name.namespace.rust"
 			],
@@ -33,7 +33,7 @@
 			}
 		},
 		{
-			"name": "Rust - Use - Imports",
+			"name": "Rust - (Use) Imports [Light Blue]",
 			"scope": [
 				"source.rust meta.use.rust",
 				"source.rust meta.use.rust entity.name.type.rust"
@@ -43,7 +43,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Yellow] Entity Name & Macros",
+			"name": "Rust - Type, Entity Names, Macros [Yellow]",
 			"scope": [
 				"source.rust entity.name.module.rust",
 				"source.rust entity.name.namespace.rust",
@@ -64,7 +64,7 @@
 			}
 		},
 		{
-			"name": "Rust - Variable",
+			"name": "Rust - Variable [Light Green]",
 			"scope": [
 				"source.rust variable.other.rust"
 			],
@@ -73,7 +73,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Orange] System Level - Darkest (Main Keywords)",
+			"name": "Rust - Main Keywords [Medium Orange]",
 			"scope": [
 				"source.rust keyword.operator.namespace.rust",
 				"source.rust keyword.other.crate.rust",
@@ -90,7 +90,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Orange] System Level - Medium (Punctuation)",
+			"name": "Rust - Operators & Punctuation [Dark Orange]",
 			"scope": [
 				"source.rust keyword.operator.access.dot.rust",
 				"source.rust keyword.operator.assignment.rust",
@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Orange] System Level - Brightest (Other Keywords)",
+			"name": "Rust - Other Keywords [Light Orange]",
 			"scope": [
 				"source.rust entity.name.type.lifetime.rust",
 				"source.rust keyword.control.rust",
@@ -124,7 +124,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Blues] (Bright) Function Names",
+			"name": "Rust - Function Names [Light Blue]",
 			"scope": [
 				"source.rust meta.function.call.rust",
 				"source.rust meta.function.call.rust entity.name.function.rust",
@@ -138,7 +138,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Blues] (Medium) Functions, Punctuation",
+			"name": "Rust - Functions, Punctuation [Medium Blue]",
 			"scope": [
 				"source.rust meta.function.definition.rust punctuation.brackets.round.rust"
 			],
@@ -147,7 +147,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Blues] (Darkest) Functions, Other Punctuation",
+			"name": "Rust - Functions, Other Punctuation [Dark Blue]",
 			"scope": [
 				"source.rust meta.function.definition.rust keyword.operator.arrow.skinny.rust",
 				"source.rust keyword.operator.arrow.fat.rust"
@@ -157,7 +157,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Light Purple] Literals, Attribute Entities, Macro Vars",
+			"name": "Rust - Literals, Attribute Entities, Macro Vars [Light Purple]",
 			"scope": [
 				"source.rust constant.language.bool.rust",
 				"source.rust constant.numeric.decimal.rust",
@@ -172,7 +172,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Medium Purple] Attribute Punctuation",
+			"name": "Rust - Attribute Punctuation [Medium Purple]",
 			"scope": [
 				"source.rust meta.attribute.rust punctuation.brackets.round.rust"
 			],
@@ -181,7 +181,7 @@
 			}
 		},
 		{
-			"name": "Rust - [Dark Purple] Attributes",
+			"name": "Rust - Attributes [Dark Purple]",
 			"scope": [
 				"source.rust meta.attribute.rust"
 			],
@@ -190,13 +190,155 @@
 			}
 		},
 		{
-			"name": "Rust - Comment",
+			"name": "Rust - Comment [Darkest Blue]",
 			"scope": [
 				"source.rust comment.line.documentation.rust",
 				"source.rust comment.line.double-slash.rust"
 			],
 			"settings": {
 				"foreground": "#185aa0",
+			}
+		},
+		{
+			"name": "JavaScript - Preprocessor [Purple]",
+			"scope": [
+				"source.js comment.line.shebang.js"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "JavaScript - Module Keywords [Dark Blue]",
+			"scope": [
+				"source.js meta.export.default.js",
+				"source.js meta.export.js keyword.control.export.js",
+				"source.js meta.import.js keyword.control.from.js",
+				"source.js meta.import.js keyword.control.import.js"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "JavaScript - Module Packages [Medium Blue]",
+			"scope": [
+				"source.js meta.export.js punctuation.definition.block.js",
+				"source.js meta.import.js punctuation.definition.block.js",
+				"source.js meta.import.js punctuation.definition.string.begin.js",
+				"source.js meta.import.js punctuation.definition.string.end.js",
+				"source.js meta.import.js string.quoted.single.js"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "JavaScript - Module Entities [Light Blue]",
+			"scope": [
+				"source.js meta.export.js variable.other.readwrite.alias.js",
+				"source.js meta.import.js variable.other.readwrite.alias.js"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "JavaScript - Main Keywords [Medium Orange]",
+			"scope": [
+				"source.js storage.type.js"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "JavaScript - Function Calls [Light Blue]",
+			"scope": [
+				"source.js meta.function-call.js"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "JavaScript - Consts, Literals [Light Purple]",
+			"scope": [
+				"source.js string.quoted.single.js",
+				"source.js string.template.js",
+				"source.js variable.other.constant.js"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "JavaScript - Variable [Light Green]",
+			"scope": [
+				"source.js meta.var.expr.js",
+				"source.js variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#BFF598"
+			}
+		},
+		{
+			"name": "JavaScript - Operators & Punctuation [Dark Orange]",
+			"scope": [
+				"source.js keyword.operator.assignment.js",
+				"source.js keyword.operator.comparison.js",
+				"source.js keyword.operator.ternary.js",
+				"source.js meta.brace.round.js",
+				"source.js punctuation.definition.block.js",
+				"source.js punctuation.definition.string.begin.js",
+				"source.js punctuation.definition.string.end.js",
+				"source.js punctuation.separator.comma.js",
+				"source.js punctuation.terminator.statement.js",
+				"source.js storage.type.function.arrow.js"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "JavaScript - Documentation (Comment) [Darkest Blue]",
+			"scope": [
+				"source.js comment.block.js",
+				"source.js comment.block.documentation.js",
+				"source.js comment.block.documentation.js punctuation.definition.bracket.curly.begin.jsdoc",
+				"source.js comment.block.documentation.js punctuation.definition.bracket.curly.end.jsdoc",
+				"source.js comment.line.documentation.js",
+				"source.js comment.line.double-slash.js"
+			],
+			"settings": {
+				"foreground": "#185aa0",
+			}
+		},
+		{
+			"name": "JavaScript - Documentation (JSDoc @Tag) [Darkest Green]",
+			"scope": [
+				"source.js comment.block.documentation.js storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#5fa1e7",
+			}
+		},
+		{
+			"name": "JavaScript - Documentation (JSDoc {Type}) [Yellow]",
+			"scope": [
+				"source.js comment.block.documentation.js entity.name.type.instance.jsdoc"
+			],
+			"settings": {
+				"foreground": "#f5e97f"
+			}
+		},
+		{
+			"name": "JavaScript - Documentation (JSDoc Var) [Darkest Green]",
+			"scope": [
+				"source.js comment.block.documentation.js variable.other.jsdoc"
+			],
+			"settings": {
+				"foreground": "#58ba12",
 			}
 		},
 		{
