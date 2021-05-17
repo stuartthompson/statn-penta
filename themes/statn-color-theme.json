@@ -9,71 +9,7 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Rust - (Use) Keywords and Delimiters [Dark Blue]",
-			"scope": [
-				"source.rust meta.use.rust entity.name.namespace.rust",
-				"source.rust meta.use.rust keyword.operator.namespace.rust",
-				"source.rust meta.use.rust keyword.other.rust",
-				"source.rust meta.use.rust keyword.other.crate.rust",
-				"source.rust meta.use.rust punctuation.brackets.curly.rust",
-				"source.rust meta.use.rust punctuation.comma.rust",
-				"source.rust meta.use.rust punctuation.semi.rust"
-			],
-			"settings": {
-				"foreground": "#2a82df"
-			}
-		},
-		{
-			"name": "Rust - (Use) Namespaces [Medium Blue]",
-			"scope": [
-				"source.rust meta.use.rust entity.name.namespace.rust"
-			],
-			"settings": {
-				"foreground": "#5fa1e7"
-			}
-		},
-		{
-			"name": "Rust - (Use) Imports [Light Blue]",
-			"scope": [
-				"source.rust meta.use.rust",
-				"source.rust meta.use.rust entity.name.type.rust"
-			],
-			"settings": {
-				"foreground": "#93BFEF"
-			}
-		},
-		{
-			"name": "Rust - Type, Entity Names, Macros [Yellow]",
-			"scope": [
-				"source.rust entity.name.module.rust",
-				"source.rust entity.name.namespace.rust",
-				"source.rust entity.name.type.rust",
-				"source.rust entity.name.type.declaration.rust",
-				"source.rust entity.name.type.enum.rust",
-				"source.rust entity.name.type.numeric.rust",
-				"source.rust entity.name.type.option.rust",
-				"source.rust entity.name.type.primitive.rust",
-				"source.rust entity.name.type.result.rust",
-				"source.rust entity.name.type.string.rust",
-				"source.rust entity.name.type.struct.rust",
-				"source.rust meta.macro.rust",
-				"source.rust meta.macro.rules.rust"
-			],
-			"settings": {
-				"foreground": "#f5e97f"
-			}
-		},
-		{
-			"name": "Rust - Variable [Light Green]",
-			"scope": [
-				"source.rust variable.other.rust"
-			],
-			"settings": {
-				"foreground": "#BFF598"
-			}
-		},
-		{
-			"name": "Rust - Main Keywords [Medium Orange]",
+			"name": "Rust - Keywords [Medium Orange]",
 			"scope": [
 				"source.rust keyword.operator.namespace.rust",
 				"source.rust keyword.other.crate.rust",
@@ -87,6 +23,19 @@
 			],
 			"settings": {
 				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "Rust - Keywords (Other) [Light Orange]",
+			"scope": [
+				"source.rust entity.name.type.lifetime.rust",
+				"source.rust keyword.control.rust",
+				"source.rust meta.function.definition.rust variable.language.self.rust",
+				"source.rust variable.language.self.rust",
+				"source.rust punctuation.definition.lifetime.rust"
+			],
+			"settings": {
+				"foreground": "#f5c167"
 			}
 		},
 		{
@@ -111,16 +60,33 @@
 			}
 		},
 		{
-			"name": "Rust - Other Keywords [Light Orange]",
+			"name": "Rust - Type, Entity Names, Macros [Yellow]",
 			"scope": [
-				"source.rust entity.name.type.lifetime.rust",
-				"source.rust keyword.control.rust",
-				"source.rust meta.function.definition.rust variable.language.self.rust",
-				"source.rust variable.language.self.rust",
-				"source.rust punctuation.definition.lifetime.rust"
+				"source.rust entity.name.module.rust",
+				"source.rust entity.name.namespace.rust",
+				"source.rust entity.name.type.rust",
+				"source.rust entity.name.type.declaration.rust",
+				"source.rust entity.name.type.enum.rust",
+				"source.rust entity.name.type.numeric.rust",
+				"source.rust entity.name.type.option.rust",
+				"source.rust entity.name.type.primitive.rust",
+				"source.rust entity.name.type.result.rust",
+				"source.rust entity.name.type.string.rust",
+				"source.rust entity.name.type.struct.rust",
+				"source.rust meta.macro.rust",
+				"source.rust meta.macro.rules.rust"
 			],
 			"settings": {
-				"foreground": "#f5c167"
+				"foreground": "#f5e97f"
+			}
+		},
+		{
+			"name": "Rust - Variables [Light Green]",
+			"scope": [
+				"source.rust variable.other.rust"
+			],
+			"settings": {
+				"foreground": "#BFF598"
 			}
 		},
 		{
@@ -190,13 +156,104 @@
 			}
 		},
 		{
-			"name": "Rust - Comment [Darkest Blue]",
+			"name": "Rust - Modules (Use) Keywords and Delimiters [Dark Blue]",
+			"scope": [
+				"source.rust meta.use.rust entity.name.namespace.rust",
+				"source.rust meta.use.rust keyword.operator.namespace.rust",
+				"source.rust meta.use.rust keyword.other.rust",
+				"source.rust meta.use.rust keyword.other.crate.rust",
+				"source.rust meta.use.rust punctuation.brackets.curly.rust",
+				"source.rust meta.use.rust punctuation.comma.rust",
+				"source.rust meta.use.rust punctuation.semi.rust"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "Rust - Modules (Use) Namespaces [Medium Blue]",
+			"scope": [
+				"source.rust meta.use.rust entity.name.namespace.rust"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "Rust - Modules (Use) Imports [Light Blue]",
+			"scope": [
+				"source.rust meta.use.rust",
+				"source.rust meta.use.rust entity.name.type.rust"
+			],
+			"settings": {
+				"foreground": "#93BFEF"
+			}
+		},
+		{
+			"name": "Rust - Documentation (Comments) [Darkest Blue]",
 			"scope": [
 				"source.rust comment.line.documentation.rust",
 				"source.rust comment.line.double-slash.rust"
 			],
 			"settings": {
 				"foreground": "#185aa0",
+			}
+		},
+		{
+			"name": "JavaScript - Keywords [Medium Orange]",
+			"scope": [
+				"source.js storage.type.js"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "JavaScript - Operators & Punctuation [Dark Orange]",
+			"scope": [
+				"source.js keyword.operator.assignment.js",
+				"source.js keyword.operator.comparison.js",
+				"source.js keyword.operator.ternary.js",
+				"source.js meta.brace.round.js",
+				"source.js punctuation.definition.block.js",
+				"source.js punctuation.definition.string.begin.js",
+				"source.js punctuation.definition.string.end.js",
+				"source.js punctuation.separator.comma.js",
+				"source.js punctuation.terminator.statement.js",
+				"source.js storage.type.function.arrow.js"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "JavaScript - Variable [Light Green]",
+			"scope": [
+				"source.js meta.var.expr.js",
+				"source.js variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#BFF598"
+			}
+		},
+		{
+			"name": "JavaScript - Function Calls [Light Blue]",
+			"scope": [
+				"source.js meta.function-call.js"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "JavaScript - Consts, Literals [Light Purple]",
+			"scope": [
+				"source.js string.quoted.single.js",
+				"source.js string.template.js",
+				"source.js variable.other.constant.js"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
 			}
 		},
 		{
@@ -241,63 +298,6 @@
 			],
 			"settings": {
 				"foreground": "#93bfef"
-			}
-		},
-		{
-			"name": "JavaScript - Main Keywords [Medium Orange]",
-			"scope": [
-				"source.js storage.type.js"
-			],
-			"settings": {
-				"foreground": "#f2a92c"
-			}
-		},
-		{
-			"name": "JavaScript - Function Calls [Light Blue]",
-			"scope": [
-				"source.js meta.function-call.js"
-			],
-			"settings": {
-				"foreground": "#93bfef"
-			}
-		},
-		{
-			"name": "JavaScript - Consts, Literals [Light Purple]",
-			"scope": [
-				"source.js string.quoted.single.js",
-				"source.js string.template.js",
-				"source.js variable.other.constant.js"
-			],
-			"settings": {
-				"foreground": "#f09ff5"
-			}
-		},
-		{
-			"name": "JavaScript - Variable [Light Green]",
-			"scope": [
-				"source.js meta.var.expr.js",
-				"source.js variable.other.readwrite.js"
-			],
-			"settings": {
-				"foreground": "#BFF598"
-			}
-		},
-		{
-			"name": "JavaScript - Operators & Punctuation [Dark Orange]",
-			"scope": [
-				"source.js keyword.operator.assignment.js",
-				"source.js keyword.operator.comparison.js",
-				"source.js keyword.operator.ternary.js",
-				"source.js meta.brace.round.js",
-				"source.js punctuation.definition.block.js",
-				"source.js punctuation.definition.string.begin.js",
-				"source.js punctuation.definition.string.end.js",
-				"source.js punctuation.separator.comma.js",
-				"source.js punctuation.terminator.statement.js",
-				"source.js storage.type.function.arrow.js"
-			],
-			"settings": {
-				"foreground": "#d38b0d"
 			}
 		},
 		{
