@@ -200,65 +200,6 @@
 			}
 		},
 		{
-			"name": "JSON Doc - Delimiter",
-			"scope": [
-				"source.json meta.structure.dictionary.json punctuation.definition.dictionary.begin.json",
-				"source.json meta.structure.dictionary.json punctuation.definition.dictionary.end.json"
-			],
-			"settings": {
-				"foreground": "#939310"
-			}
-		},
-		{
-			"name": "JSON Doc - Separator",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json",
-			],
-			"settings": {
-				"foreground": "#939310"
-			}
-		},
-		{
-			"name": "JSON Key",
-			"scope": [
-				"source.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#2C82E6"
-			}
-		},
-		{
-			"name": "JSON Key - Delimiter",
-			"scope": [
-				"source.json meta.structure.dictionary.json string.json support.type.property-name.json punctuation.support.type.property-name.begin.json",
-				"source.json meta.structure.dictionary.json string.json support.type.property-name.json punctuation.support.type.property-name.end.json"
-			],
-			"settings": {
-				"foreground": "#114d92"
-			}
-		},
-		{
-			"name": "JSON Value",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json constant.numeric.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json"
-			],
-			"settings": {
-				"foreground": "#82E62C"
-			}
-		},
-		{
-			"name": "JSON Value - Delimiter",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json"
-			],
-			"settings": {
-				"foreground": "#4d9211"
-			}
-		},
-		{
 			"name": "Markdown - Plain",
 			"scope": [
 				"text.html.markdown",
@@ -277,6 +218,59 @@
 			],
 			"settings": {
 				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "JSON Doc - Punctuation",
+			"scope": [
+				"source.json punctuation.separator.dictionary.key-value.json",
+				"source.json punctuation.separator.dictionary.pair.json",
+				"source.json punctuation.definition.array.begin.json",
+				"source.json punctuation.definition.array.end.json",
+				"source.json punctuation.definition.dictionary.begin.json",
+				"source.json punctuation.definition.dictionary.end.json"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "JSON Key",
+			"scope": [
+				"source.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "JSON Key - Delimiter",
+			"scope": [
+				"source.json string.json support.type.property-name.json punctuation.support.type.property-name.begin.json",
+				"source.json string.json support.type.property-name.json punctuation.support.type.property-name.end.json"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "JSON Value",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json constant.numeric.json",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "JSON Value - Delimiter",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json"
+			],
+			"settings": {
+				"foreground": "#7feb33"
 			}
 		},
 		{
