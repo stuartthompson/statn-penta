@@ -1,14 +1,14 @@
 {
-    "name": "statn-vscodetheme",
-    "displayName": "statn-vscodetheme",
-    "description": "A VSCode theme based around statn.dev projects.",
-    "version": "0.5.0",
+    "name": "statn-penta",
+    "displayName": "statn-penta",
+    "description": "A theme for the discerning developer using complementary colors to distinguish key elements. Penta aims to leverage contrast for distinctive clarity while being soft enough for everyday use.",
+    "version": "0.6.0",
     "publisher": "stuartthompson",
     "license": "GPL3",
-    "homepage": "https://github.com/stuartthompson/statn-vscodetheme",
+    "homepage": "https://github.com/stuartthompson/statn-penta",
     "repository": {
         "type": "git",
-        "url": "https://github.com/stuartthompson/statn-vscodetheme"
+        "url": "https://github.com/stuartthompson/statn-penta"
       },
     "engines": {
         "vscode": "^1.56.0"
@@ -19,9 +19,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "statn",
+                "label": "statn-penta",
                 "uiTheme": "vs-dark",
-                "path": "./themes/statn-color-theme.json"
+                "path": "./themes/statn-penta-theme.json"
             }
         ]
     }
