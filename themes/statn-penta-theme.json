@@ -656,6 +656,7 @@
 		{
 			"name": "Markdown - Link URL",
 			"scope": [
+				"text.html.markdown markup.underline.link.image.markdown",
 				"text.html.markdown markup.underline.link.markdown"
 			],
 			"settings": {
