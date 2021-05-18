@@ -2,20 +2,184 @@
 	"name": "statn",
 	"type": "dark",
 	"colors": {
+		"activityBar.activeBackground": "#1f2832",
+		"activityBar.activeBorder": "#2a82df",
+		"activityBar.activeFocusBorder": "#93bfef",
+		"activityBar.background": "#2f3d4b",
+		"activityBar.border": "#1f2832",
+		"activityBar.dropBorder": "#5fa1e7",
+		"activityBar.foreground": "#dceafa",
+		"activityBar.inactiveForeground": "#8298b0",
+		"activityBarBadge.background": "#1f2832",
+		"activityBarBadge.foreground": "#dceafa",
+		"badge.background": "#566f8a",
+		"badge.foreground": "#dceafa",
+		"breadcrumb.activeSelectionForeground": "#dceafa",
+		"breadcrumb.background": "#051423",
+		"breadcrumb.focusForeground": "#dceafa",
+		"breadcrumb.foreground": "#8298b0",
+		"breadcrumbPicker.background": "#051423",
+		"button.background": "#2f3d4b",
+		"button.border": "#1f2832",
+		"button.foreground": "#dceafa",
+		"button.hoverBackground": "#6884a1",
+		"button.secondaryBackground": "#2f3d4b",
+		"button.secondaryForeground": "#dceafa",
+		"button.secondaryHoverBackground": "#6884a1",
+		"dropdown.background": "#081e35",
+		"dropdown.border": "#051423",
+		"dropdown.foreground": "#dceafa",
+		"dropdown.listBackground": "#051423",
 		"editor.background": "#051423",
 		"editor.foreground": "#dceafa",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"list.activeSelectionBackground": "#6884a1",
+		"list.activeSelectionForeground": "#dceafa",
+		"sideBar.background": "#1f2832",
+		"sideBar.foreground": "#dceafa",
+		"sideBarSectionHeader.background": "#2f3d4b",
+		"tab.activeBackground": "#051423",
+		"tab.border": "#051423",
+		"tab.inactiveBackground": "#1f2832",
+		"titleBar.activeBackground": "#1f2832",
+		"titleBar.activeForeground": "#dceafa",
+		"titleBar.inactiveBackground": "#181e26",
+		"titleBar.inactiveForeground": "#8298b0",
 	},
 	"tokenColors": [
 		{
-			"name": "Documentation (Comment)",
+			"name": "Keywords [Orange]",
+			"scope": [
+				"keyword",
+				"keyword.operator",
+				"keyword.operator.constructor",
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "Operators, Punctuation [Orange]",
+			"scope": [],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "Types, Entities [Yellow]",
+			"scope": [
+				"entity.name.class",
+				"entity.name.module",
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"storage",
+				"storage.identifier",
+				"storage.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#f5e97f"
+			}
+		},
+		{
+			"name": "Variables [Green]",
+			"scope": [
+				"entity.name.variable.parameter",
+				"parameter.variable",
+				"variable.language",
+				"variable.other",
+				"variable.other.block",
+				"variable.other.constant",
+				"variable.other.global",
+				"variable.other.object",
+				"variable.other.property",
+				"variable.other.readwrite.batchfile",
+				"variable.other.readwrite.class",
+				"variable.other.readwrite.instance",
+				"variable.parameter",
+				"variable.readwrite",
+				"variable.readwrite.other.block"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "Functions [Blue]",
+			"scope": [
+				"entity.name.function",
+				"entity.name.function-call",
+				"function.support.builtin",
+				"function.support.core",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "Literals [Purple]",
+			"scope": [
+				"constant.character",
+				"constant.language",
+				"constant.numeric",
+				"constant.other",
+				"string",
+				"string.template"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "Specials [Purple]",
+			"scope": [],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "Modules (Keywords) [Dark Blue]",
+			"scope": [
+				"storage.modifier.import",
+				"storage.modifier.package"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "Modules (Packages and Punctuation) [Blue]",
+			"scope": [],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "Modules (Entities and Namespaces) [Blue]",
+			"scope": [],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "Documentation (Comment) [Darker Blue]",
 			"scope": [
 				"comment",
 				"string.comment"
 			],
 			"settings": {
 				"foreground": "#185aa0"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.deprecated"
+			],
+			"settings": {
+				"foreground": "#880000"
 			}
 		},
 		{

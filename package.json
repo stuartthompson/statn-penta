@@ -19,7 +19,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Statn",
+                "label": "statn",
                 "uiTheme": "vs-dark",
                 "path": "./themes/statn-color-theme.json"
             }
