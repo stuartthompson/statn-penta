@@ -1,10 +1,42 @@
-# Statn
+# Statn Penta
 
-Statn's VS Code theme.
+A soft and distinct high-contrast programming theme for VS Code.
+
+(shields badges)
+
+## In Action
+
+(screenshot here)
 
 ## Colors
 
-This theme uses the following colors:
+Penta is based upon five complementary tones:
+
+![Color Swatch](images/penta-swatch.png)
+
+## Palette
+
+![Color Palette](images/penta-palette.png)
+
+## Tokens
+
+The following broad categories describe how particular tokens are grouped and
+colored.
+
+![Tokens](images/token-palette.png)
+
+* Keywords (Orange)
+* Operators, Punctuation (Dark Orange)
+* Types, Entities (Yellow)
+* Variables (Green)
+* Functions (Blue)
+* Literals (Purple)
+* Special (Attributes, Preprocessor) (Purple)
+* Modules (Blue)
+* Comments/Doc (Dark Blue)
+
+
+## Color Codes
 
 * Oranges
   * #f5c167 (Light Orange)
@@ -30,18 +62,3 @@ This theme uses the following colors:
   * #f09ff5 (Light Purple)
   * #e96bef (Purple)
   * #e134ea (Dark Purple)
-  
-## Token Grouping
-
-The following broad categories describe how particular tokens are grouped and
-colored.
-
-* Keywords (Orange)
-* Operators, Punctuation (Dark Orange)
-* Types, Entities (Yellow)
-* Variables (Green)
-* Functions (Blue)
-* Literals (Purple)
-* Special (Attributes, Preprocessor) (Purple)
-* Modules (Blue)
-* Comments/Doc (Dark Blue)
