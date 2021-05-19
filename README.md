@@ -86,3 +86,7 @@ The following is a list of color codes in text format.
   * <div style="background-color: #dceafa; padding-left:10px; width: 200px;"><span style="color:#465a70">#465a70 (Dark Cyan)</span></div>
   * <div style="background-color: #dceafa; padding-left:10px; width: 200px;"><span style="color:#2f3d4b">#2f3d4b (Darker Cyan)</span></div>
   * <div style="background-color: #dceafa; padding-left:10px; width: 200px;"><span style="color:#1f2832">#1f2832 (Darkest Cyan)</span></div>
+
+## License
+
+See the ![LICENSE](https://github.com/stuartthompson/statn-penta/blob/main/LICENSE.md) file for details.
