@@ -43,7 +43,7 @@
 		"titleBar.activeBackground": "#1f2832",
 		"titleBar.activeForeground": "#dceafa",
 		"titleBar.inactiveBackground": "#181e26",
-		"titleBar.inactiveForeground": "#8298b0",
+		"titleBar.inactiveForeground": "#8298b0"
 	},
 	"tokenColors": [
 		{
@@ -60,7 +60,14 @@
 		},
 		{
 			"name": "Operators, Punctuation [Orange]",
-			"scope": [],
+			"scope": [
+				"meta.brace.curly",
+				"meta.brace.round",
+				"meta.brace.square",
+				"punctuation.separator.comma",
+				"punctuation.separator.parameter",
+				"punctuation.terminator.statement"
+			],
 			"settings": {
 				"foreground": "#d38b0d"
 			}
@@ -87,6 +94,7 @@
 				"entity.name.variable.parameter",
 				"parameter.variable",
 				"variable.language",
+				"variable.object.property",
 				"variable.other",
 				"variable.other.block",
 				"variable.other.constant",
@@ -370,7 +378,7 @@
 				"source.rust comment.line.double-slash.rust"
 			],
 			"settings": {
-				"foreground": "#185aa0",
+				"foreground": "#185aa0"
 			}
 		},
 		{
@@ -485,7 +493,7 @@
 				"source.js comment.line.double-slash.js"
 			],
 			"settings": {
-				"foreground": "#185aa0",
+				"foreground": "#185aa0"
 			}
 		},
 		{
@@ -494,7 +502,7 @@
 				"source.js comment.block.documentation.js storage.type.class.jsdoc"
 			],
 			"settings": {
-				"foreground": "#5fa1e7",
+				"foreground": "#5fa1e7"
 			}
 		},
 		{
@@ -512,7 +520,93 @@
 				"source.js comment.block.documentation.js variable.other.jsdoc"
 			],
 			"settings": {
-				"foreground": "#58ba12",
+				"foreground": "#58ba12"
+			}
+		},
+		{
+			"name": "TypeScript - Keywords [Medium Orange]",
+			"scope": [
+				"source.ts keyword.control.conditional.ts",
+				"source.ts keyword.control.loop.ts",
+				"source.ts meta.class.ts storage.type.class.ts",
+				"source.ts meta.class.ts storage.modifier.ts",
+				"source.ts meta.enum.declaration.ts storage.type.enum.ts",
+				"source.ts meta.method.declaration.ts storage.type.ts",
+				"source.ts meta.var.expr.ts storage.type.ts"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+		{
+			"name": "Operators, Punctuation [Orange]",
+			"scope": [
+				"source.ts punctuation.accessor.ts",
+				"source.ts punctuation.accessor.optional.ts",
+				"source.ts punctuation.definition.block.ts",
+				"source.ts punctuation.definition.parameters.begin.ts",
+				"source.ts punctuation.definition.parameters.end.ts",
+				"source.ts punctuation.definition.typeparameters"
+			],
+			"settings": {
+				"foreground": "#d38b0d"
+			}
+		},
+		{
+			"name": "TypeScript - Types [Yellow]",
+			"scope": [
+				"source.ts support.type.primitive.ts"
+			],
+			"settings": {
+				"foreground": "#f5e97f"
+			}
+		},
+		{
+			"name": "Functions [Blue]",
+			"scope": [
+				"source.ts variable.language.super.ts",
+				"source.ts variable.language.this.ts"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "TypeScript - Module Keywords [Dark Blue]",
+			"scope": [
+				"source.ts meta.export.ts keyword.control.export.ts",
+				"source.ts meta.export.default.ts",
+				"source.ts meta.import.ts keyword.control.as.ts",
+				"source.ts meta.import.ts keyword.control.from.ts",
+				"source.ts meta.import.ts keyword.control.import.ts"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "TypeScript - Module Packages [Medium Blue]",
+			"scope": [
+				"source.ts meta.export.ts punctuation.definition.block.ts",
+				"source.ts meta.import.ts punctuation.definition.block.ts",
+				"source.ts meta.import.ts punctuation.definition.string.begin.ts",
+				"source.ts meta.import.ts punctuation.definition.string.end.ts",
+				"source.ts meta.import.ts punctuation.separator.comma.ts",
+				"source.ts meta.import.ts string.quoted.single.ts"
+			],
+			"settings": {
+				"foreground": "#5fa1e7"
+			}
+		},
+		{
+			"name": "TypeScript - Module Entities [Light Blue]",
+			"scope": [
+				"source.ts meta.export.ts variable.other.readwrite.alias.ts",
+				"source.ts meta.import.ts constant.language.import-export-all.ts",
+				"source.ts meta.import.ts variable.other.readwrite.alias.ts"
+			],
+			"settings": {
+				"foreground": "#93bfef"
 			}
 		},
 		{
@@ -680,6 +774,6 @@
 			"settings": {
 				"foreground": "#93bfef"
 			}
-		},
+		}
 	]
 }
