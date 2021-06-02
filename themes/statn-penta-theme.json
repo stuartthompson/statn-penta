@@ -774,6 +774,53 @@
 			"settings": {
 				"foreground": "#93bfef"
 			}
+		},
+    {
+			"name": "HTML - Delimiter [Dark Blue]",
+			"scope": [
+				"text.html.derivative punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#2a82df"
+			}
+		},
+		{
+			"name": "HTML Entity [Light Blue]",
+			"scope": [
+				"text.html.derivative entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "HTML Attribute [Green]",
+			"scope": [
+				"text.html.derivative entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "HTML Separator [Orange]",
+			"scope": [
+				"text.html.derivative punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+    {
+			"name": "HTML Literals [Purple]",
+			"scope": [
+				"text.html.derivative string.quoted.double",
+        "text.html.derivative string.quoted.single",
+        "text.html.derivative string.unquoted"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
 		}
 	]
 }
