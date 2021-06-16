@@ -610,7 +610,7 @@
 			}
 		},
 		{
-			"name": "JSON Doc - Punctuation",
+			"name": "JSON Doc - Punctuation [Orange]",
 			"scope": [
 				"source.json punctuation.separator.dictionary.key-value.json",
 				"source.json punctuation.separator.dictionary.pair.json",
@@ -624,7 +624,7 @@
 			}
 		},
 		{
-			"name": "JSON Key",
+			"name": "JSON Key [Light Blue]",
 			"scope": [
 				"source.json support.type.property-name.json"
 			],
@@ -633,7 +633,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Delimiter",
+			"name": "JSON Key - Delimiter [Medium Blue]",
 			"scope": [
 				"source.json string.json support.type.property-name.json punctuation.support.type.property-name.begin.json",
 				"source.json string.json support.type.property-name.json punctuation.support.type.property-name.end.json"
@@ -817,6 +817,49 @@
 				"text.html.derivative string.quoted.double",
         "text.html.derivative string.quoted.single",
         "text.html.derivative string.unquoted"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
+			}
+		},
+    {
+			"name": "CSS Entity [Light Blue]",
+			"scope": [
+				"source.css entity.name.tag.css",
+        "source.css entity.name.tag.wildcard.css",
+        "source.css entity.other.attribute-name.pseudo-element.css"
+			],
+			"settings": {
+				"foreground": "#93bfef"
+			}
+		},
+    {
+			"name": "CSS Property [Green]",
+			"scope": [
+				"source.css support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#bff598"
+			}
+		},
+    {
+			"name": "CSS Punctuation [Orange]",
+			"scope": [
+        "source.css punctuation.definition.entity.css",
+				"source.css punctuation.section.property-list.begin.bracket.curly.css",
+        "source.css punctuation.section.property-list.end.bracket.curly.css",
+        "source.css punctuation.separator.key-value.css",
+        "source.css punctuation.separator.list.comma.css",
+        "source.css punctuation.terminator.rule.css"
+			],
+			"settings": {
+				"foreground": "#f2a92c"
+			}
+		},
+    {
+			"name": "CSS Literal (Values) [Purple]",
+			"scope": [
+        "source.css meta.property-value.css"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
