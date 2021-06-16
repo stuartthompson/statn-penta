@@ -3,7 +3,7 @@
 A theme for the discerning developer using complementary colors to distinguish key elements. Penta aims to leverage contrast for distinctive clarity while being soft enough for everyday use.
 
 ![GitHub statn-penta](https://img.shields.io/badge/github-stuartthompson/statn--penta-8da0cb?style=for-the-badge&labelColor=555555&logo=github)
-
+![VSCode Marketplace statn-penta](https://img.shields.io/visual-studio-marketplace/v/stuartthompson.statn-penta?style=for-the-badge)
 
 ## In Action
 
