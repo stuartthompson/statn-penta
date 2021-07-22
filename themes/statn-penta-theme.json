@@ -66,6 +66,7 @@
 				"meta.brace.square",
 				"punctuation.definition.entity",
 				"punctuation.section.property-list",
+				"punctuation.separator",
 				"punctuation.separator.comma",
 				"punctuation.separator.key-value",
 				"punctuation.separator.list.comma",
@@ -97,6 +98,7 @@
 			"name": "Variables [Green]",
 			"scope": [
 				"entity.name.variable.parameter",
+				"entity.other.attribute-name",
 				"parameter.variable",
 				"support.type.property-name",
 				"variable.language",
@@ -149,7 +151,10 @@
 				"constant.numeric",
 				"constant.other",
 				"string",
-				"string.template"
+				"string.quoted.double",
+				"string.quoted.single",
+				"string.template",
+				"string.unquoted"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
@@ -175,17 +180,19 @@
 			}
 		},
 		{
-			"name": "Modules (Packages and Punctuation) [Blue]",
-			"scope": [],
-			"settings": {
-				"foreground": "#5fa1e7"
-			}
-		},
-		{
 			"name": "Modules (Entities and Namespaces) [Blue]",
 			"scope": [],
 			"settings": {
 				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "Markup Punctuation [Dark Blue]",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#2a82df"
 			}
 		},
 		{
@@ -796,7 +803,7 @@
 		{
 			"name": "HTML - Delimiter [Dark Blue]",
 			"scope": [
-				"text.html.derivative punctuation.definition.tag"
+				"text.html punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#2a82df"
@@ -805,7 +812,7 @@
 		{
 			"name": "HTML Entity [Light Blue]",
 			"scope": [
-				"text.html.derivative entity.name.tag.html"
+				"text.html entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#93bfef"
@@ -814,7 +821,7 @@
 		{
 			"name": "HTML Attribute [Green]",
 			"scope": [
-				"text.html.derivative entity.other.attribute-name.html"
+				"text.html entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#bff598"
@@ -823,7 +830,7 @@
 		{
 			"name": "HTML Separator [Orange]",
 			"scope": [
-				"text.html.derivative punctuation.separator"
+				"text.html punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#f2a92c"
@@ -832,9 +839,9 @@
 		{
 			"name": "HTML Literals [Purple]",
 			"scope": [
-				"text.html.derivative string.quoted.double",
-				"text.html.derivative string.quoted.single",
-				"text.html.derivative string.unquoted"
+				"text.html string.quoted.double",
+				"text.html string.quoted.single",
+				"text.html string.unquoted"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
