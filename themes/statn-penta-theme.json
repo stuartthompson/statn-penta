@@ -64,12 +64,17 @@
 				"meta.brace.curly",
 				"meta.brace.round",
 				"meta.brace.square",
+				"punctuation.definition.entity",
+				"punctuation.section.property-list",
 				"punctuation.separator.comma",
+				"punctuation.separator.key-value",
+				"punctuation.separator.list.comma",
 				"punctuation.separator.parameter",
+				"punctuation.terminator.rule",
 				"punctuation.terminator.statement"
 			],
 			"settings": {
-				"foreground": "#d38b0d"
+				"foreground": "#f2a92c"
 			}
 		},
 		{
@@ -93,6 +98,7 @@
 			"scope": [
 				"entity.name.variable.parameter",
 				"parameter.variable",
+				"support.type.property-name",
 				"variable.language",
 				"variable.object.property",
 				"variable.other",
@@ -110,6 +116,16 @@
 			],
 			"settings": {
 				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "Tags and Attributes [Light Blue]",
+			"scope": [
+				"entity.name.tag",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#93bfef"
 			}
 		},
 		{
@@ -141,7 +157,9 @@
 		},
 		{
 			"name": "Specials [Purple]",
-			"scope": [],
+			"scope": [
+				"meta.property-value"
+			],
 			"settings": {
 				"foreground": "#f09ff5"
 			}
@@ -775,7 +793,7 @@
 				"foreground": "#93bfef"
 			}
 		},
-    {
+		{
 			"name": "HTML - Delimiter [Dark Blue]",
 			"scope": [
 				"text.html.derivative punctuation.definition.tag"
@@ -811,29 +829,29 @@
 				"foreground": "#f2a92c"
 			}
 		},
-    {
+		{
 			"name": "HTML Literals [Purple]",
 			"scope": [
 				"text.html.derivative string.quoted.double",
-        "text.html.derivative string.quoted.single",
-        "text.html.derivative string.unquoted"
+				"text.html.derivative string.quoted.single",
+				"text.html.derivative string.unquoted"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
 			}
 		},
-    {
+		{
 			"name": "CSS Entity [Light Blue]",
 			"scope": [
 				"source.css entity.name.tag.css",
-        "source.css entity.name.tag.wildcard.css",
-        "source.css entity.other.attribute-name.pseudo-element.css"
+				"source.css entity.name.tag.wildcard.css",
+				"source.css entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#93bfef"
 			}
 		},
-    {
+		{
 			"name": "CSS Property [Green]",
 			"scope": [
 				"source.css support.type.property-name.css"
@@ -842,24 +860,24 @@
 				"foreground": "#bff598"
 			}
 		},
-    {
+		{
 			"name": "CSS Punctuation [Orange]",
 			"scope": [
-        "source.css punctuation.definition.entity.css",
+				"source.css punctuation.definition.entity.css",
 				"source.css punctuation.section.property-list.begin.bracket.curly.css",
-        "source.css punctuation.section.property-list.end.bracket.curly.css",
-        "source.css punctuation.separator.key-value.css",
-        "source.css punctuation.separator.list.comma.css",
-        "source.css punctuation.terminator.rule.css"
+				"source.css punctuation.section.property-list.end.bracket.curly.css",
+				"source.css punctuation.separator.key-value.css",
+				"source.css punctuation.separator.list.comma.css",
+				"source.css punctuation.terminator.rule.css"
 			],
 			"settings": {
 				"foreground": "#f2a92c"
 			}
 		},
-    {
+		{
 			"name": "CSS Literal (Values) [Purple]",
 			"scope": [
-        "source.css meta.property-value.css"
+				"source.css meta.property-value.css"
 			],
 			"settings": {
 				"foreground": "#f09ff5"
