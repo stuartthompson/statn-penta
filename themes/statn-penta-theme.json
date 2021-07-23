@@ -33,6 +33,8 @@
 		"editor.background": "#051423",
 		"editor.foreground": "#dceafa",
     "editorGroupHeader.tabsBackground": "#1f2832",
+    "editorGroupHeader.tabsBorder": "#93bfef",
+    "editorLineNumber.foreground": "#dceafa",
 		"list.activeSelectionBackground": "#6884a1",
 		"list.activeSelectionForeground": "#dceafa",
 		"sideBar.background": "#1f2832",
