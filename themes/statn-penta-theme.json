@@ -79,23 +79,6 @@
 			}
 		},
 		{
-			"name": "Punctuation [White]",
-			"scope": [
-				"punctuation.definition.entity",
-				"punctuation.section.property-list",
-				"punctuation.separator",
-				"punctuation.separator.comma",
-				"punctuation.separator.key-value",
-				"punctuation.separator.list.comma",
-				"punctuation.separator.parameter",
-				"punctuation.terminator.rule",
-				"punctuation.terminator.statement"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
 			"name": "Types, Entities [Yellow]",
 			"scope": [
 				"entity.name.class",
@@ -187,6 +170,23 @@
 			}
 		},
 		{
+			"name": "Punctuation [White]",
+			"scope": [
+				"punctuation.definition.entity",
+				"punctuation.section.property-list",
+				"punctuation.separator",
+				"punctuation.separator.comma",
+				"punctuation.separator.key-value",
+				"punctuation.separator.list.comma",
+				"punctuation.separator.parameter",
+				"punctuation.terminator.rule",
+				"punctuation.terminator.statement"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Modules (Keywords) [Dark Blue]",
 			"scope": [
 				"storage.modifier.import",
@@ -275,20 +275,6 @@
 			],
 			"settings": {
 				"foreground": "#d38b0d"
-			}
-		},
-		{
-			"name": "Rust - Punctuation [White]",
-			"scope": [
-				"source.rust punctuation.comma.rust",
-				"source.rust punctuation.brackets.angle.rust",
-				"source.rust punctuation.brackets.curly.rust",
-				"source.rust punctuation.brackets.round.rust",
-				"source.rust punctuation.brackets.square.rust",
-				"source.rust punctuation.semi.rust"
-			],
-			"settings": {
-				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -385,6 +371,20 @@
 			],
 			"settings": {
 				"foreground": "#e134ea"
+			}
+		},
+		{
+			"name": "Rust - Punctuation [White]",
+			"scope": [
+				"source.rust punctuation.comma.rust",
+				"source.rust punctuation.brackets.angle.rust",
+				"source.rust punctuation.brackets.curly.rust",
+				"source.rust punctuation.brackets.round.rust",
+				"source.rust punctuation.brackets.square.rust",
+				"source.rust punctuation.semi.rust"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
