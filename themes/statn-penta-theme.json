@@ -597,20 +597,6 @@
 			}
 		},
 		{
-			"name": "Operators, Punctuation [Orange]",
-			"scope": [
-				"source.ts punctuation.accessor.ts",
-				"source.ts punctuation.accessor.optional.ts",
-				"source.ts punctuation.definition.block.ts",
-				"source.ts punctuation.definition.parameters.begin.ts",
-				"source.ts punctuation.definition.parameters.end.ts",
-				"source.ts punctuation.definition.typeparameters"
-			],
-			"settings": {
-				"foreground": "#d38b0d"
-			}
-		},
-		{
 			"name": "TypeScript - Types [Yellow]",
 			"scope": [
 				"source.ts support.type.primitive.ts"
@@ -620,13 +606,27 @@
 			}
 		},
 		{
-			"name": "Functions [Blue]",
+			"name": "TypeScript - Functions [Blue]",
 			"scope": [
 				"source.ts variable.language.super.ts",
 				"source.ts variable.language.this.ts"
 			],
 			"settings": {
 				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "TypeScript - Punctuation [White]",
+			"scope": [
+				"source.ts punctuation.accessor.ts",
+				"source.ts punctuation.accessor.optional.ts",
+				"source.ts punctuation.definition.block.ts",
+				"source.ts punctuation.definition.parameters.begin.ts",
+				"source.ts punctuation.definition.parameters.end.ts",
+				"source.ts punctuation.definition.typeparameters"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
