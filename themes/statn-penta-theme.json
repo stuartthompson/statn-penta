@@ -695,7 +695,7 @@
 			}
 		},
 		{
-			"name": "JSON Doc - Punctuation [Orange]",
+			"name": "JSON - Punctuation [Orange]",
 			"scope": [
 				"source.json punctuation.separator.dictionary.key-value.json",
 				"source.json punctuation.separator.dictionary.pair.json",
@@ -748,9 +748,8 @@
 			}
 		},
 		{
-			"name": "YAML - Keys",
+			"name": "YAML - Keys [Dark Blue]",
 			"scope": [
-				"source.yaml constant.language.boolean.yaml",
 				"source.yaml entity.name.tag.yaml"
 			],
 			"settings": {
@@ -758,7 +757,7 @@
 			}
 		},
 		{
-			"name": "YAML - Punctuation",
+			"name": "YAML - Punctuation [Orange]",
 			"scope": [
 				"source.yaml punctuation.definition.block.sequence.item.yaml",
 				"source.yaml punctuation.definition.sequence.begin.yaml",
@@ -770,13 +769,22 @@
 			}
 		},
 		{
-			"name": "YAML - Values",
+			"name": "YAML - Values [Green]",
 			"scope": [
 				"source.yaml meta.flow-sequence.yaml",
 				"source.yaml string.unquoted.plain.out.yaml"
 			],
 			"settings": {
 				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "YAML - Literals [Purple]",
+			"scope": [
+				"source.yaml constant.language"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
 			}
 		},
 		{
