@@ -2,6 +2,13 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 0.8.0
+
+- Punctuation is now white, helping to differentiate.
+- GoLang support added.
+- YAML theme minor fixes.
+- JSON theme minor fixes.
+
 ## 0.7.0
 
 - Expands base theme to cover more cases.
