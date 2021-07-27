@@ -25,7 +25,7 @@ colored.
 ![Tokens](images/token-palette.png)
 
 * Keywords (Orange)
-* Operators, Punctuation (Dark Orange)
+* Operators (Dark Orange)
 * Types, Entities (Yellow)
 * Variables (Green)
 * Functions (Blue)
@@ -33,6 +33,7 @@ colored.
 * Special (Attributes, Preprocessor) (Purple)
 * Modules (Blue)
 * Comments/Doc (Dark Blue)
+* Punctuation (White)
 
 ## Tints & Shades
 
@@ -43,7 +44,6 @@ Tints and shades are used to provide further distinction between elements.
 For example, JavaScript module imports use three tones of blue to distinguish keywords, package names, and package contents.
 
 ![JavaScript Module Imports Sample](images/javascript-module-imports-sample.png)
-
 
 ## Color Codes
 

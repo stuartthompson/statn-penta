@@ -79,23 +79,6 @@
 			}
 		},
 		{
-			"name": "Punctuation [White]",
-			"scope": [
-				"punctuation.definition.entity",
-				"punctuation.section.property-list",
-				"punctuation.separator",
-				"punctuation.separator.comma",
-				"punctuation.separator.key-value",
-				"punctuation.separator.list.comma",
-				"punctuation.separator.parameter",
-				"punctuation.terminator.rule",
-				"punctuation.terminator.statement"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
 			"name": "Types, Entities [Yellow]",
 			"scope": [
 				"entity.name.class",
@@ -187,6 +170,23 @@
 			}
 		},
 		{
+			"name": "Punctuation [White]",
+			"scope": [
+				"punctuation.definition.entity",
+				"punctuation.section.property-list",
+				"punctuation.separator",
+				"punctuation.separator.comma",
+				"punctuation.separator.key-value",
+				"punctuation.separator.list.comma",
+				"punctuation.separator.parameter",
+				"punctuation.terminator.rule",
+				"punctuation.terminator.statement"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Modules (Keywords) [Dark Blue]",
 			"scope": [
 				"storage.modifier.import",
@@ -275,20 +275,6 @@
 			],
 			"settings": {
 				"foreground": "#d38b0d"
-			}
-		},
-		{
-			"name": "Rust - Punctuation [White]",
-			"scope": [
-				"source.rust punctuation.comma.rust",
-				"source.rust punctuation.brackets.angle.rust",
-				"source.rust punctuation.brackets.curly.rust",
-				"source.rust punctuation.brackets.round.rust",
-				"source.rust punctuation.brackets.square.rust",
-				"source.rust punctuation.semi.rust"
-			],
-			"settings": {
-				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -388,6 +374,20 @@
 			}
 		},
 		{
+			"name": "Rust - Punctuation [White]",
+			"scope": [
+				"source.rust punctuation.comma.rust",
+				"source.rust punctuation.brackets.angle.rust",
+				"source.rust punctuation.brackets.curly.rust",
+				"source.rust punctuation.brackets.round.rust",
+				"source.rust punctuation.brackets.square.rust",
+				"source.rust punctuation.semi.rust"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Rust - Modules (Use) Keywords and Delimiters [Dark Blue]",
 			"scope": [
 				"source.rust meta.use.rust entity.name.namespace.rust",
@@ -441,17 +441,12 @@
 			}
 		},
 		{
-			"name": "JavaScript - Operators & Punctuation [Dark Orange]",
+			"name": "JavaScript - Operators [Dark Orange]",
 			"scope": [
 				"source.js keyword.operator.assignment.js",
 				"source.js keyword.operator.comparison.js",
 				"source.js keyword.operator.ternary.js",
 				"source.js meta.brace.round.js",
-				"source.js punctuation.definition.block.js",
-				"source.js punctuation.definition.string.begin.js",
-				"source.js punctuation.definition.string.end.js",
-				"source.js punctuation.separator.comma.js",
-				"source.js punctuation.terminator.statement.js",
 				"source.js storage.type.function.arrow.js"
 			],
 			"settings": {
@@ -495,6 +490,19 @@
 			],
 			"settings": {
 				"foreground": "#f09ff5"
+			}
+		},
+		{
+			"name": "JavaScript - Punctuation [White]",
+			"scope": [
+				"source.js punctuation.definition.block.js",
+				"source.js punctuation.definition.string.begin.js",
+				"source.js punctuation.definition.string.end.js",
+				"source.js punctuation.separator.comma.js",
+				"source.js punctuation.terminator.statement.js"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -589,20 +597,6 @@
 			}
 		},
 		{
-			"name": "Operators, Punctuation [Orange]",
-			"scope": [
-				"source.ts punctuation.accessor.ts",
-				"source.ts punctuation.accessor.optional.ts",
-				"source.ts punctuation.definition.block.ts",
-				"source.ts punctuation.definition.parameters.begin.ts",
-				"source.ts punctuation.definition.parameters.end.ts",
-				"source.ts punctuation.definition.typeparameters"
-			],
-			"settings": {
-				"foreground": "#d38b0d"
-			}
-		},
-		{
 			"name": "TypeScript - Types [Yellow]",
 			"scope": [
 				"source.ts support.type.primitive.ts"
@@ -612,13 +606,27 @@
 			}
 		},
 		{
-			"name": "Functions [Blue]",
+			"name": "TypeScript - Functions [Blue]",
 			"scope": [
 				"source.ts variable.language.super.ts",
 				"source.ts variable.language.this.ts"
 			],
 			"settings": {
 				"foreground": "#93bfef"
+			}
+		},
+		{
+			"name": "TypeScript - Punctuation [White]",
+			"scope": [
+				"source.ts punctuation.accessor.ts",
+				"source.ts punctuation.accessor.optional.ts",
+				"source.ts punctuation.definition.block.ts",
+				"source.ts punctuation.definition.parameters.begin.ts",
+				"source.ts punctuation.definition.parameters.end.ts",
+				"source.ts punctuation.definition.typeparameters"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -687,7 +695,7 @@
 			}
 		},
 		{
-			"name": "JSON Doc - Punctuation [Orange]",
+			"name": "JSON - Punctuation [Orange]",
 			"scope": [
 				"source.json punctuation.separator.dictionary.key-value.json",
 				"source.json punctuation.separator.dictionary.pair.json",
@@ -740,9 +748,8 @@
 			}
 		},
 		{
-			"name": "YAML - Keys",
+			"name": "YAML - Keys [Dark Blue]",
 			"scope": [
-				"source.yaml constant.language.boolean.yaml",
 				"source.yaml entity.name.tag.yaml"
 			],
 			"settings": {
@@ -750,7 +757,7 @@
 			}
 		},
 		{
-			"name": "YAML - Punctuation",
+			"name": "YAML - Punctuation [Orange]",
 			"scope": [
 				"source.yaml punctuation.definition.block.sequence.item.yaml",
 				"source.yaml punctuation.definition.sequence.begin.yaml",
@@ -762,13 +769,22 @@
 			}
 		},
 		{
-			"name": "YAML - Values",
+			"name": "YAML - Values [Green]",
 			"scope": [
 				"source.yaml meta.flow-sequence.yaml",
 				"source.yaml string.unquoted.plain.out.yaml"
 			],
 			"settings": {
 				"foreground": "#bff598"
+			}
+		},
+		{
+			"name": "YAML - Literals [Purple]",
+			"scope": [
+				"source.yaml constant.language"
+			],
+			"settings": {
+				"foreground": "#f09ff5"
 			}
 		},
 		{
