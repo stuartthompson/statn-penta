@@ -365,12 +365,21 @@
 		{
 			"name": "Rust - Attributes [Dark Purple]",
 			"scope": [
-				"source.rust meta.attribute.rust"
+				"source.rust meta.attribute.rust",
 			],
 			"settings": {
 				"foreground": "#e134ea"
 			}
 		},
+    {
+      "name": "Rust - Macro Invocation [Dark Purple]",
+      "scope": [
+        "source.rust meta.macro.rust entity.name.function.macro.rust"
+      ],
+      "settings": {
+				"foreground": "#e134ea"
+			}
+    },
 		{
 			"name": "Rust - Punctuation [White]",
 			"scope": [
