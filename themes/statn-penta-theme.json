@@ -705,12 +705,13 @@
         {
             "name": "JSON - Punctuation [Orange]",
             "scope": [
-                "source.json punctuation.separator.dictionary.key-value.json",
-                "source.json punctuation.separator.dictionary.pair.json",
                 "source.json punctuation.definition.array.begin.json",
                 "source.json punctuation.definition.array.end.json",
                 "source.json punctuation.definition.dictionary.begin.json",
-                "source.json punctuation.definition.dictionary.end.json"
+                "source.json punctuation.definition.dictionary.end.json",
+                "source.json punctuation.separator.array.json",
+                "source.json punctuation.separator.dictionary.key-value.json",
+                "source.json punctuation.separator.dictionary.pair.json"
             ],
             "settings": {
                 "foreground": "#d38b0d"
