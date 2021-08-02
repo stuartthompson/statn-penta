@@ -70,9 +70,9 @@
         {
             "name": "Operators [Orange]",
             "scope": [
-                "meta.brace.curly",
-                "meta.brace.round",
-                "meta.brace.square"
+                "keyword.operator",
+                "keyword.operator.comparison",
+                "keyword.operator.relational"
             ],
             "settings": {
                 "foreground": "#f2a92c"
@@ -83,6 +83,7 @@
             "scope": [
                 "entity.name.class",
                 "entity.name.module",
+                "entity.name.package",
                 "entity.name.type",
                 "entity.other.inherited-class",
                 "storage",
@@ -172,6 +173,9 @@
         {
             "name": "Punctuation [White]",
             "scope": [
+                "meta.brace.curly",
+                "meta.brace.round",
+                "meta.brace.square",
                 "punctuation.definition.entity",
                 "punctuation.section.property-list",
                 "punctuation.separator",
@@ -210,6 +214,18 @@
             ],
             "settings": {
                 "foreground": "#2a82df"
+            }
+        },
+        {
+            "name": "Consts, Literals [Light Purple]",
+            "scope": [
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.template",
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#f09ff5"
             }
         },
         {
@@ -504,8 +520,6 @@
             "name": "JavaScript - Punctuation [White]",
             "scope": [
                 "source.js punctuation.definition.block.js",
-                "source.js punctuation.definition.string.begin.js",
-                "source.js punctuation.definition.string.end.js",
                 "source.js punctuation.separator.comma.js",
                 "source.js punctuation.terminator.statement.js"
             ],
@@ -685,21 +699,32 @@
             }
         },
         {
-            "name": "GoLang - Punctuation [White]",
-            "scope": [
-                "source.go punctuation.definition"
-            ],
-            "settings": {
-                "foreground": "#ffffff"
-            }
-        },
-        {
             "name": "GoLang - Functions [Blue]",
             "scope": [
                 "source.go support.function"
             ],
             "settings": {
                 "foreground": "#93bfef"
+            }
+        },
+        {
+            "name": "GoLang - Punctuation [White]",
+            "scope": [
+                "source.go punctuation.definition.begin.bracket.curly",
+                "source.go punctuation.definition.end.bracket.curly"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "GoLang - Documentation (Comments) [Darkest Blue]",
+            "scope": [
+                "source.go comment.line",
+                "source.go punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#185aa0"
             }
         },
         {
@@ -769,6 +794,7 @@
             "name": "YAML - Punctuation [Orange]",
             "scope": [
                 "source.yaml punctuation.definition.block.sequence.item.yaml",
+                "source.yaml punctuation.separator.sequence.yaml",
                 "source.yaml punctuation.definition.sequence.begin.yaml",
                 "source.yaml punctuation.definition.sequence.end.yaml",
                 "source.yaml punctuation.separator.key-value.mapping.yaml"
@@ -967,5 +993,11 @@
                 "foreground": "#f09ff5"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "newOperator": "#f2a92c",
+        "customLiteral": "f09ff5",
+        "numberLiteral": "f09ff5",
+        "stringLiteral": "f09ff5"
+    }
 }
