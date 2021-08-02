@@ -312,9 +312,7 @@
 			"scope": [
 				"source.rust meta.function.call.rust",
 				"source.rust meta.function.call.rust entity.name.function.rust",
-				"source.rust meta.function.call.rust punctuation.brackets.round.rust",
 				"source.rust meta.function.definition.rust entity.name.function.rust",
-				"source.rust meta.function.definition.rust punctuation.brackets.round.rust",
 				"source.rust meta.function.definition.rust keyword.operator.arrow.skinny.rust"
 			],
 			"settings": {
@@ -376,7 +374,8 @@
 		{
 			"name": "Rust - Punctuation [White]",
 			"scope": [
-				"source.rust punctuation.comma.rust",
+				"source.rust meta.function.definition.rust punctuation.brackets.round.rust",
+        "source.rust punctuation.comma.rust",
 				"source.rust punctuation.brackets.angle.rust",
 				"source.rust punctuation.brackets.curly.rust",
 				"source.rust punctuation.brackets.round.rust",
