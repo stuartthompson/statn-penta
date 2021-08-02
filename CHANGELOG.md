@@ -2,11 +2,16 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 1.0.0
+
+- Minor fixes.
+- Documentation: Studio-wide theme screenshot added.
+
 ## 0.9.0
 
 - Documentation updated.
 - Examples added for six different languages.
-- Preparation for initial 1.0 release.
+- Preparation for 1.0 release.
 
 ## 0.8.0
 

@@ -1,2 +1,5 @@
+# Dependencies (node)
 node_modules
+
+# Package output (when packaging and testing locally)
 *.vsix
