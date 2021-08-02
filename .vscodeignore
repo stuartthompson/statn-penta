@@ -1,3 +1,7 @@
+# VSCode Ignore File
+# 
+# Describes patterns that should be ignored by VSCode.
+
 .vscode/**
 .vscode-test/**
 .gitignore
