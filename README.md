@@ -1,6 +1,8 @@
 # Statn Penta
 
-A theme for the discerning developer using complementary colors to distinguish key elements. Penta aims to leverage contrast for distinctive clarity while being soft enough for everyday use.
+A theme for the discerning developer using complementary colors to distinguish
+key elements. Penta aims to leverage contrast for distinctive clarity while
+being soft enough for everyday use.
 
 [![GitHub statn-penta](https://img.shields.io/badge/github-stuartthompson/statn--penta-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/stuartthompson/statn-penta)
 [![VSCode Marketplace statn-penta](https://img.shields.io/visual-studio-marketplace/v/stuartthompson.statn-penta?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=stuartthompson.statn-penta)
@@ -35,6 +37,13 @@ colored.
 * Modules (Blue)
 * Comments/Doc (Dark Blue)
 * Punctuation (White)
+
+## Studio Theme
+
+Penta contributes theme values for the whole studio, so the status bars, UI,
+and other studio elements all fit and match together in the same palette.
+
+![Studio Theme](images/studio-sample.png)
 
 ## Tints & Shades
 
