@@ -7,9 +7,10 @@ A theme for the discerning developer using complementary colors to distinguish k
 
 ## In Action
 
-Rust and JavaScript in action, using Penta:
+The following shows statn-penta in action for Rust, JavaScript, JSON, HTML,
+CSS, and YAML.
 
-![Example](images/theme-example.png)
+![Example](images/code-samples.png)
 
 ## Colors
 
