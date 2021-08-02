@@ -2,6 +2,12 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 0.9.0
+
+- Documentation updated.
+- Examples added for six different languages.
+- Preparation for initial 1.0 release.
+
 ## 0.8.0
 
 - Punctuation is now white, helping to differentiate.
