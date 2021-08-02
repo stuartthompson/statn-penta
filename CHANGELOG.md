@@ -2,6 +2,13 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 1.0.1
+
+- Operators: Fixing braces and comparison operators.
+- GoLang: String literal delimiters, and // comments.
+- YAML: Fixing screenshot example.
+- Adds semantic token colors definition block.
+
 ## 1.0.0
 
 - Minor fixes.
