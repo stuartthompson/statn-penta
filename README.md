@@ -14,6 +14,12 @@ CSS, and YAML.
 
 ![Example](images/code-samples.png)
 
+## Installation
+
+To install statn-penta, visit the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=stuartthompson.statn-penta) and click the Install button.
+
+[![Install Statn-Penta](images/installation-instructions.png)](https://marketplace.visualstudio.com/items?itemName=stuartthompson.statn-penta)
+
 ## Colors
 
 Penta is built around five tones, each associated with different token groups.
