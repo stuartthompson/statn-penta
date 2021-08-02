@@ -1,8 +1,9 @@
 # Statn Penta
 
-A theme for the discerning developer using complementary colors to distinguish
-key elements. Penta aims to leverage contrast for distinctive clarity while
-being soft enough for everyday use.
+Penta aims to be bright and cheery whilst retaining clarity and distinction
+between key elements. Penta uses five complementary tones with each assigned
+responsibitily for a different general area of syntax, allowing for mental 
+consistency between different languages and file formats.
 
 [![GitHub statn-penta](https://img.shields.io/badge/github-stuartthompson/statn--penta-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/stuartthompson/statn-penta)
 [![VSCode Marketplace statn-penta](https://img.shields.io/visual-studio-marketplace/v/stuartthompson.statn-penta?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=stuartthompson.statn-penta)
