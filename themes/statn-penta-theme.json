@@ -992,6 +992,27 @@
             "settings": {
                 "foreground": "#f09ff5"
             }
+        }, 
+        {
+            "name": "Java - Keywords [Medium Orange]",
+            "scope": [
+                "source.java storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#f2a92c"
+            }
+        },
+        {
+            "name": "Java - Punctuation [White]",
+            "scope": [
+                "source.java punctuation.bracket.round",
+                "source.java punctuation.bracket.square",
+                "source.java punctuation.definition.parameters",
+                "source.java punctuation.section.method"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
         }
     ],
     "semanticTokenColors": {
