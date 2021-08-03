@@ -106,4 +106,4 @@ The following is a list of color codes in text format.
 
 ## License
 
-See the ![LICENSE](https://github.com/stuartthompson/statn-penta/blob/main/LICENSE.md) file for details.
+See the [LICENSE](https://github.com/stuartthompson/statn-penta/blob/main/LICENSE.md) file for details.
