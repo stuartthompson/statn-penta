@@ -10,8 +10,8 @@ consistency between different languages and file formats.
 
 ## In Action
 
-The following shows statn-penta in action for Rust, JavaScript, JSON, HTML,
-CSS, and YAML.
+The following shows statn-penta in action for Rust, C#, JavaScript, GoLang,
+Java, JSON, HTML, CSS, XML, Markdown, TOML, and YAML.
 
 ![Example](images/code-samples.png)
 

@@ -2,6 +2,10 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 1.0.3
+
+- Updates code samples screenshot to show new languages.
+
 ## 1.0.2
 
 - Adds Java support.
