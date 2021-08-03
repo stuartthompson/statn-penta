@@ -2,6 +2,10 @@
 
 All notable changes to statn-penta will be documented in this file.
 
+## 1.0.2
+
+- Adds Java support.
+
 ## 1.0.1
 
 - Operators: Fixing braces and comparison operators.
